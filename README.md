@@ -1,6 +1,5 @@
-# FSIE_Projects
- 
-# My Projects – FSIE Setups
+
+ # My Projects – FSIE Setups
 
 This repository documents my **Full-Stack Infrastructure Engineering (FSIE)** labs, setups, and operational notes.
 
