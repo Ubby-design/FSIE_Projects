@@ -1,37 +1,36 @@
-
----
-
-### **7️⃣ lab1/docs/index.html**
-```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Lab 1 Preview</title>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/milligram/1.4.1/milligram.min.css">
+  <title>Lab 1 – Linux Setup & Hardening</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    body { font-family: Arial, sans-serif; margin:20px; line-height:1.6; background:#f5f5f5; color:#333; }
+    h1,h2 { color:#1a73e8; }
+    a { color:#1a73e8; text-decoration:none; }
+    a:hover { text-decoration:underline; }
+  </style>
 </head>
 <body>
-  <h1>Lab 1: Linux Setup & Hardening</h1>
-  <p>This mini-preview shows the lab steps, network configuration, and scripts.</p>
+  <h1>Lab 1 – Linux Setup & Hardening</h1>
+  <p>This lab covers user management, sudo RBAC, SSH hardening, and firewall configuration.</p>
 
-  <h2>Network Config Example:</h2>
-  <pre>
-auto eth0
-iface eth0 inet static
-    address 192.168.56.101
-    netmask 255.255.255.0
-    gateway 192.168.56.1
-    dns-nameservers 8.8.8.8 8.8.4.4
-  </pre>
-
-  <h2>Scripts Overview:</h2>
+  <h2>Resources</h2>
   <ul>
-    <li><code>setup.sh</code> – Creates user and applies network config</li>
-    <li><code>harden.sh</code> – Disables root SSH and applies firewall</li>
+    <li><a href="../../lab1/config" target="_blank">Config Files</a></li>
+    <li><a href="../../lab1/scripts" target="_blank">Automation Scripts</a></li>
+    <li><a href="../../lab1/README.md" target="_blank">Lab README</a></li>
   </ul>
 
-  <p>Full instructions and files are available in the <a href="https://github.com/Ubby-design/FSIE_Projects/tree/main/lab1" target="_blank">GitHub repo</a>.</p>
+  <h2>Live Preview</h2>
+  <iframe
+    src="../../lab1/docs/index.html"
+    width="100%" height="400"
+    style="border:1px solid #ccc;"
+    loading="lazy">
+  </iframe>
+
+  <p><a href="../">Back to FSIE Portfolio</a></p>
 </body>
 </html>
 
